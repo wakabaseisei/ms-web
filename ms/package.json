@@ -9,17 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@buf/googleapis_googleapis.bufbuild_es": "^2.2.5-20250303202749-751cbe31638d.1",
+    "@buf/wakabaseisei_ms-protobuf.bufbuild_es": "^2.2.5-20250409105742-a204320cd61b.1",
+    "@connectrpc/connect": "^2.0.2",
+    "@connectrpc/connect-web": "^2.0.2",
+    "next": "15.2.4",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.2.4"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.2.4",
-    "@eslint/eslintrc": "^3"
+    "typescript": "^5"
   }
 }
