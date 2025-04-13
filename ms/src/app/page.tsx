@@ -1,3 +1,5 @@
+"use client";
+
 import { useState } from "react";
 import { createConnectTransport } from "@connectrpc/connect-web";
 import { createClient } from "@connectrpc/connect";
@@ -9,8 +11,7 @@ export default function Home() {
   const [name, setName] = useState("");
 
   const transport = createConnectTransport({
-    // TODO: 
-    baseUrl: "http://localhost:8080",
+    baseUrl: "TODO:",
   });
 
   const client = createClient(GreetService, transport);
