@@ -10,7 +10,7 @@ export default function Home() {
   const [greet, setGreet] = useState("");
   const [name, setName] = useState("");
   
-  const baseUrl = process.env.API_URL || "http://localhost:8080";
+  const baseUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8080";
 
   const transport = createConnectTransport({
     baseUrl: baseUrl,
