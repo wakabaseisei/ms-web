@@ -54,5 +54,4 @@ Next.js をベースに Connect を用いたRPC通信を実装し、CloudFront +
 
 ## ✅ 備考
 
-- Connect RPC を採用し、gRPC風の効率的な通信を実現
 - `output: 'export'` により、Next.js を完全な静的サイトとしてビルド
